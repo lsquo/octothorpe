@@ -91,6 +91,14 @@ add_filter( 'document_title_separator', function() {
 	return '&mdash;';
 } );
 
+add_filter( 'get_custom_logo', function( $html ) {
+	return sprintf(
+		'<div itemscope itemtype="%1$s">%2$s</div>',
+		esc_url( 'https://schema.org/Brand' ),
+		$html
+	);
+} );
+
 add_filter( 'the_title', function( $title ) {
 	if ( $title == '' && ! is_singular() ) {
 		$title = __( '#', 'octothorpe' );
