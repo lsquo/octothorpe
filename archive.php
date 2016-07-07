@@ -7,7 +7,7 @@
  */
 
 get_header();
-the_archive_title( '<header><h1>', '</header></h1>' );
+the_archive_title( '<header><h1>', '</h1></header>' );
 the_archive_description();
 if ( have_posts() ) : ?>
 	<ul>
