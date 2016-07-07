@@ -7,7 +7,7 @@
  */
 
 if ( is_active_sidebar( 'footer' ) ) { ?>
-	<aside role="complementary">
+	<aside>
 		<?php dynamic_sidebar( 'footer' ); ?>
 	</aside>
 <?php }
