@@ -1,0 +1,517 @@
+/**
+ * Theme Name: Octothorpe
+ * Theme URI: https://github.com/henrywright/octothorpe
+ * Description: Octothorpe is a modern theme for blogging.
+ * Version: 1.0.0
+ * Author: Henry Wright
+ * Author URI: https://about.me/henrywright
+ * Text Domain: octothorpe
+ * Tags: one-column, accessibility-ready, custom-menu, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {}
+
+body {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2rem;
+	line-height: 1.8;
+	overflow-wrap: break-word;
+	padding: 3rem 6%;
+	word-wrap: break-word;
+}
+
+header {}
+
+footer {
+	text-align: center;
+}
+
+article {}
+
+article::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+section {}
+
+nav {
+	margin: 0 0 2rem 0;
+}
+
+aside {}
+
+div {}
+
+span {}
+
+br {
+	line-height: 1;
+}
+
+hr {
+	margin: 0 0 2rem 0;
+}
+
+h1 {
+	font-family: 'Boogaloo', cursive;
+	font-size: 5rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem 0;
+}
+
+h2 {
+	font-family: 'Boogaloo', cursive;
+	font-size: 3rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem 0;
+}
+
+h3 {
+	font-family: 'Boogaloo', cursive;
+	font-size: 2.7rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem 0;
+}
+
+h4 {
+	font-family: 'Boogaloo', cursive;
+	font-size: 2.4rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem 0;
+}
+
+h5 {
+	font-family: 'Boogaloo', cursive;
+	font-size: 2.1rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem 0;
+}
+
+h6 {
+	font-family: 'Boogaloo', cursive;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem 0;
+}
+
+p {
+	margin: 0 0 2rem 0;
+}
+
+a {}
+
+a:link {
+	color: #0000ee;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #551a8b;
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: auto;
+}
+
+address {
+	font-style: normal;
+	margin: 0 0 2rem 0;
+}
+
+ol {
+	padding: 0 0 0 3rem;
+	margin: 0 0 2rem 0;
+}
+
+ul {
+	padding: 0 0 0 3rem;
+	margin: 0 0 2rem 0;
+}
+
+li {}
+
+dl {}
+
+dt {
+	text-decoration: underline;
+}
+
+dd {
+	margin: 0 0 2rem 0;
+}
+
+blockquote {
+	font-style: italic;
+	margin: 0 0 2rem 0;
+	padding: 0 2rem 0 2rem;
+	quotes: none;
+}
+
+blockquote::before {
+	content: none;
+}
+
+blockquote::after {
+	content: none;
+}
+
+q {}
+
+cite {
+	font-style: italic;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+small {
+	font-size: 90%;
+}
+
+s {
+	text-decoration: line-through;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+mark {
+	background-color: #ffff00;
+}
+
+sub {
+	vertical-align: sub;
+}
+
+sup {
+	vertical-align: super;
+}
+
+i {
+	font-style: italic;
+}
+
+b {
+	font-weight: bold;
+}
+
+u {
+	text-decoration: underline;
+}
+
+dfn {
+	font-style: italic;
+}
+
+abbr {
+	font-variant: none;
+	text-decoration: dotted underline;
+}
+
+time {}
+
+pre {
+	font-family: 'Inconsolata', monospace;
+	margin: 0 0 2rem 0;
+	white-space: pre-wrap;
+}
+
+code {
+	font-family: 'Inconsolata', monospace;
+}
+
+samp {
+	font-family: 'Inconsolata', monospace;
+}
+
+kbd {
+	font-family: 'Inconsolata', monospace;
+}
+
+var {
+	font-style: italic;
+}
+
+figure {
+	margin: 0 0 2rem 0;
+}
+
+figcaption {
+	font-size: 1rem;
+}
+
+img {
+	border-style: none;
+	display: block;
+	height: auto;
+	margin: 0 0 2rem 0;
+	max-width: 100%;
+}
+
+iframe {
+	margin: 0 0 2rem 0;
+	max-width: 100%;
+}
+
+embed {
+	margin: 0 0 2rem 0;
+	max-width: 100%;
+}
+
+object {
+	margin: 0 0 2rem 0;
+	max-width: 100%;
+}
+
+video {
+	margin: 0 0 2rem 0;
+	max-width: 100%;
+}
+
+audio {
+	margin: 0 0 2rem 0;
+	max-width: 100%;
+}
+
+canvas {
+	margin: 0 0 2rem 0;
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 2rem 0;
+}
+
+caption {
+	font-size: 1rem;
+	text-align: left;
+}
+
+colgroup {}
+
+col {}
+
+tbody {}
+
+thead {}
+
+tfoot {}
+
+tr {}
+
+td {
+	border-color: #555;
+	border-style: dashed;
+	border-width: 0.1rem;
+	padding: 0.2rem 1rem;
+	text-align: left;
+}
+
+th {
+	background-color: #eee;
+	border-color: #555;
+	border-style: dashed;
+	border-width: 0.1rem;
+	font-weight: 400;
+	padding: 0.2rem 1rem;
+	text-align: left;
+}
+
+form {}
+
+fieldset {}
+
+legend {}
+
+label {
+	display: block;
+}
+
+input {
+	border-color: #555;
+	border-style: dashed;
+	border-width: 0.1rem;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0 0 2rem 0;
+	padding: 0.5rem 1rem;
+	width: 100%;
+}
+
+input[type="submit"] {
+	background-color: #eee;
+	cursor: pointer;
+	padding: 0.5rem 3rem;
+	width: auto;
+}
+
+button {}
+
+textarea {
+	border-color: #555;
+	border-style: dashed;
+	border-width: 0.1rem;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0 0 2rem 0;
+	padding: 1rem;
+	width: 100%;
+}
+
+select {
+	background-color: #fff;
+	border-color: #555;
+	border-style: dashed;
+	border-width: 0.1rem;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0 0 2rem 0;
+	padding: 0.5rem 1rem;
+	width: 100%;
+}
+
+optgroup {}
+
+option {}
+
+output {}
+
+progress {}
+
+meter {}
+
+details {}
+
+summary {}
+
+figure img {
+	margin: 0 0 1rem 0;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer li {
+	margin: 0 1rem;
+}
+
+.custom-logo {
+	display: block;
+	height: auto;
+	margin: 0 auto 2rem auto;
+	max-width: 6rem;
+}
+
+.tagcloud {
+	margin: 0 0 2rem 0;
+}
+
+.comment-list {
+	list-style: none;
+	padding: 0;
+}
+
+.comment-list ul {
+	list-style: none;
+	padding: 0 0 0 1rem;
+}
+
+.sticky time {
+	color: #ff0000;
+}
+
+.home time {
+	margin: 0 0.5rem 0 0;
+}
+
+.archive time {
+	margin: 0 0.5rem 0 0;
+}
+
+.mejs-container {
+	margin: 0 0 2rem 0;
+}
+
+.current-menu-item a {
+	color: #000;
+}
+
+.sticky {}
+
+.wp-caption {}
+
+.wp-caption-text {}
+
+.screen-reader-text {}
+
+.gallery-caption {}
+
+.bypostauthor {}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 2rem 2rem 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 2rem 2rem;
+}
+
+@media (min-width: 34em) {
+	.comment-list ul {
+		padding: 0 0 0 2rem;
+	}
+}
+
+@media (min-width: 68em) {
+	body {
+		padding: 3rem 20%;
+	}
+
+	blockquote {
+		padding: 0 6rem;
+	}
+
+	footer li {
+		display: inline;
+	}
+}

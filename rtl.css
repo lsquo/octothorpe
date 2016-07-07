@@ -1,0 +1,32 @@
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+ol {
+	padding: 0 3rem 0 0;
+}
+
+ul {
+	padding: 0 3rem 0 0;
+}
+
+caption {
+	text-align: right;
+}
+
+td {
+	text-align: right;
+}
+
+th {
+	text-align: right;
+}
+
+.home time {
+	margin: 0 0 0 0.5rem;
+}
+
+.archive time {
+	margin: 0 0 0 0.5rem;
+}
