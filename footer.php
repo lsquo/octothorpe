@@ -8,7 +8,7 @@
 
 		get_sidebar();
 		if ( has_nav_menu( 'footer' ) ) { ?>
-			<footer role="contentinfo">
+			<footer>
 				<?php wp_nav_menu(
 					array(
 						'theme_location' => 'footer',
