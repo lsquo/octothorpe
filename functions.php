@@ -76,7 +76,7 @@ add_action( 'wp_enqueue_scripts', function() {
 
 	wp_enqueue_style(
 		'octothorpe-fonts',
-		'//fonts.googleapis.com/css?family=Boogaloo|Inconsolata|Noto+Serif:400,400i,700,700i',
+		'//fonts.googleapis.com/css?family=Boogaloo%7CInconsolata%7CNoto+Serif:400,400i,700,700i',
 		array(),
 		null
 	);
