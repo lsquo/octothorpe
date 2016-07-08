@@ -413,6 +413,10 @@ details {}
 
 summary {}
 
+figure img {
+	margin: 0;
+}
+
 footer ul {
 	list-style: none;
 	margin: 0;
