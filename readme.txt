@@ -1,5 +1,5 @@
 === Octothorpe ===
-Contributors: henry.wright
+Contributors: lsquo, henry.wright
 Donate link: https://www.rspca.org.uk/getinvolved/donate/online
 Tags: one-column, accessibility-ready, custom-menu, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog
 Requires at least: 3.8
@@ -25,7 +25,7 @@ You can then go ahead and activate the theme.
 
 = Where should I submit bug reports? =
 
-If you think you've spotted a bug, please open an issue on [GitHub](https://github.com/henrywright/octothorpe/issues).
+If you think you've spotted a bug, please open an issue on [GitHub](https://github.com/lsquo/octothorpe/issues).
 
 == Screenshots ==
 
@@ -33,4 +33,4 @@ If you think you've spotted a bug, please open an issue on [GitHub](https://gith
 
 == Changelog ==
 
-See [CHANGELOG.md](https://github.com/henrywright/octothorpe/blob/master/CHANGELOG.md) for a curated list of changes.
+See [CHANGELOG.md](https://github.com/lsquo/octothorpe/blob/master/CHANGELOG.md) for a curated list of changes.
