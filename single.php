@@ -10,10 +10,10 @@ get_header();
 while ( have_posts() ) : the_post(); ?>
 	<main>
 		<article <?php post_class(); ?>>
-			<?php the_title( '<header><h1>', '</h1></header>' ); ?>
 			<?php if ( has_category() ) { ?>
 				<p><?php echo get_the_category_list( ', ' ); ?></p>
 			<?php } ?>
+			<?php the_title( '<header><h1>', '</h1></header>' ); ?>
 			<?php if ( has_post_thumbnail() ) { ?>
 				<figure>
 					<?php the_post_thumbnail();
