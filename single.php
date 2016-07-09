@@ -24,7 +24,10 @@ while ( have_posts() ) : the_post(); ?>
 				</figure>
 			<?php }
 			the_content();
-			get_template_part( 'template-parts/pag', 'post' ); ?>
+			get_template_part( 'template-parts/pag', 'post' );
+			if ( has_tag() ) { ?>
+				<p><?php esc_html_e( 'Tagged', 'octothorpe' ); ?> <?php echo get_the_tag_list( '', ', ', '' ); ?></p>
+			<?php } ?>
 			<address><?php printf(
 				esc_html__( 'Posted by %1$s on %2$s.', 'octothorpe' ),
 				get_the_author_posts_link(),
@@ -34,10 +37,7 @@ while ( have_posts() ) : the_post(); ?>
 					esc_html( get_the_date() )
 				)
 			); ?></address>
-			<?php if ( has_tag() ) { ?>
-				<p><?php esc_html_e( 'Tagged', 'octothorpe' ); ?> <?php echo get_the_tag_list( '', ', ', '' ); ?></p>
-			<?php }
-			if ( comments_open() || get_comments_number() ) {
+			<?php if ( comments_open() || get_comments_number() ) {
 				comments_template();
 			} ?>
 		</article>
