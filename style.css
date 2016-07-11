@@ -265,6 +265,7 @@ figure {
 
 figcaption {
 	font-size: 1rem;
+	margin: 0 0 1rem 0;
 }
 
 img {
@@ -313,6 +314,7 @@ table {
 
 caption {
 	font-size: 1rem;
+	margin: 0 0 1rem 0;
 	text-align: left;
 }
 
@@ -354,6 +356,7 @@ legend {}
 
 label {
 	display: block;
+	margin: 0 0 1rem 0;
 }
 
 input {
@@ -414,7 +417,7 @@ details {}
 summary {}
 
 figure img {
-	margin: 0;
+	margin: 0 0 1rem 0;
 }
 
 footer ul {
