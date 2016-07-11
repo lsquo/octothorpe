@@ -63,6 +63,7 @@ hr {
 }
 
 h1 {
+	clear: both;
 	font-family: 'Boogaloo', cursive;
 	font-size: 5rem;
 	font-weight: 400;
@@ -71,6 +72,7 @@ h1 {
 }
 
 h2 {
+	clear: both;
 	font-family: 'Boogaloo', cursive;
 	font-size: 3rem;
 	font-weight: 400;
@@ -79,6 +81,7 @@ h2 {
 }
 
 h3 {
+	clear: both;
 	font-family: 'Boogaloo', cursive;
 	font-size: 2.7rem;
 	font-weight: 400;
@@ -87,6 +90,7 @@ h3 {
 }
 
 h4 {
+	clear: both;
 	font-family: 'Boogaloo', cursive;
 	font-size: 2.4rem;
 	font-weight: 400;
@@ -95,6 +99,7 @@ h4 {
 }
 
 h5 {
+	clear: both;
 	font-family: 'Boogaloo', cursive;
 	font-size: 2.1rem;
 	font-weight: 400;
@@ -103,6 +108,7 @@ h5 {
 }
 
 h6 {
+	clear: both;
 	font-family: 'Boogaloo', cursive;
 	font-size: 1.8rem;
 	font-weight: 400;
