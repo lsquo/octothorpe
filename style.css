@@ -451,6 +451,10 @@ footer li {
 	padding: 0 0 0 1rem;
 }
 
+#comment {
+	margin: 0;
+}
+
 .sticky time {
 	color: #ff0000;
 }
