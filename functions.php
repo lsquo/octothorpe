@@ -178,7 +178,7 @@ add_filter( 'comment_form_defaults', function( $defaults ) {
 	$defaults['format'] = 'html5';
 	$defaults['fields']['author'] = '<label for="author">' . esc_html__( 'Name ', 'octothorpe' ) . ( $required ? esc_html__( '*', 'octothorpe' ) : '' ) . '</label> ' . '<input type="text" name="author" id="author" value="' . esc_attr( $commenter['comment_author'] ) . '" maxlength="245" ' . ( $required ? 'required' : '' ) . '>';
 	$defaults['fields']['email'] = '<label for="email">' . esc_html__( 'Email ', 'octothorpe' ) . ( $required ? esc_html__( '*', 'octothorpe' ) : '' ) . '</label> ' . '<input type="email" name="email" id="email" value="' . esc_attr( $commenter['comment_author_email'] ) . '" maxlength="100" ' . ( $required ? 'required' : '' ) . '>';
-	$defaults['fields']['url'] = '<label for="url">' . esc_html__( 'Link ', 'octothorpe' ) . '</label> ' . '<input type="url" name="url" id="url" value="' . esc_attr( $commenter['comment_author_url'] ) . '" maxlength="200">';
+	$defaults['fields']['url'] = '<label for="url">' . esc_html__( 'Website', 'octothorpe' ) . '</label> ' . '<input type="url" name="url" id="url" value="' . esc_attr( $commenter['comment_author_url'] ) . '" maxlength="200">';
 	$defaults['label_submit'] = __( 'Post', 'octothorpe' );
 	$defaults['logged_in_as'] = '';
 	$defaults['must_log_in'] = '<p>' . sprintf( esc_html__( 'You must %1$s to comment.', 'octothorpe' ), $log_in_link ) . '</p>';
