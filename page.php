@@ -13,7 +13,11 @@ while ( have_posts() ) : the_post(); ?>
 			<?php the_title( '<header><h1>', '</h1></header>' ); ?>
 			<?php if ( has_post_thumbnail() ) { ?>
 				<figure>
-					<?php the_post_thumbnail(); ?>
+					<?php the_post_thumbnail();
+					$post_excerpt = get_post( get_post_thumbnail_id() )->post_excerpt;
+					if ( $post_excerpt ) { ?>
+						<figcaption><?php echo $post_excerpt; ?></figcaption>
+					<?php } ?>
 				</figure>
 			<?php }
 			the_content();
