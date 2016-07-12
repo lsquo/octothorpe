@@ -191,3 +191,14 @@ add_filter( 'comment_form_defaults', function( $defaults ) {
 
 	return $defaults;
 } );
+
+add_filter( 'the_password_form', function() {
+	global $post;
+	$output = esc_html__( 'This content is password protected. To view it please enter your password.', 'octothorpe' );
+	$output .= '<form action="' . esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ) . '" method="post">';
+	$output .= '<label for="password">' . esc_html__( 'Password', 'octothorpe' ) . '</label>';
+	$output .= '<input type="password" name="post_password" id="password" size="20">';
+	$output .= '<input type="submit" name="Submit" value="' . esc_attr__( 'Enter', 'octothorpe' ) . '">';
+	$output .= '</form>';
+	return $output;
+} );
