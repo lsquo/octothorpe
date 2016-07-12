@@ -120,9 +120,9 @@ add_filter( 'widget_tag_cloud_args', function( $args ) {
 */
 function octothorpe_comment( $comment, $args, $depth ) { ?>
 	<li id="comment-<?php echo esc_attr( $comment->comment_ID ); ?>" <?php comment_class(); ?>>
-		<?php printf(
-			'%1$s <time datetime="%2$s">%3$s <a href="%4$s">%5$s</a></time> ',
-			get_comment_author_link(),
+		<?php comment_author_link();
+		printf(
+			' <time datetime="%1$s">%2$s <a href="%3$s">%4$s</a></time> ',
 			esc_attr( get_comment_date( 'c' ) ),
 			esc_html( get_comment_date() ),
 			esc_url( get_comment_link() ),
