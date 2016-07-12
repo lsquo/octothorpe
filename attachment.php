@@ -17,7 +17,11 @@ while ( have_posts() ) : the_post(); ?>
 				esc_url( wp_get_attachment_url( get_the_ID() ) ),
 				esc_html( $parts['filename'] ),
 				esc_html( $parts['extension'] )
-			); ?>
+			);
+			$post = get_post( get_the_ID() );
+			if ( $post->post_content ) { ?>
+				<p><?php echo $post->post_content; ?></p>
+			<?php } ?>
 		</article>
 	</main>
 <?php endwhile;
