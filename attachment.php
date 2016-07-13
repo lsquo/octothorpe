@@ -18,10 +18,7 @@ while ( have_posts() ) : the_post(); ?>
 				esc_html( $parts['filename'] ),
 				esc_html( $parts['extension'] )
 			);
-			$post = get_post( get_the_ID() );
-			if ( $post->post_content ) { ?>
-				<p><?php echo $post->post_content; ?></p>
-			<?php } ?>
+			the_content(); ?>
 		</article>
 	</main>
 <?php endwhile;
