@@ -73,7 +73,9 @@ add_action( 'wp_enqueue_scripts', function() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+} );
 
+add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style(
 		'octothorpe-fonts',
 		'//fonts.googleapis.com/css?family=Boogaloo%7CInconsolata%7CNoto+Serif:400,400i,700,700i',
