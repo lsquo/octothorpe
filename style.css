@@ -469,39 +469,12 @@ footer li {
 	padding: 0;
 }
 
-.home .post {
+.post-list li {
 	list-style-type: none;
 	margin: 0 0 2rem 0;
 }
 
-.archive .post {
-	list-style-type: none;
-	margin: 0 0 2rem 0;
-}
-
-.search .post {
-	list-style-type: none;
-	margin: 0 0 2rem 0;
-}
-
-.search .page {
-	list-style-type: none;
-	margin: 0 0 2rem 0;
-}
-
-.home .post time {
-	display: block;
-}
-
-.archive .post time {
-	display: block;
-}
-
-.search .post time {
-	display: block;
-}
-
-.search .page time {
+.post-list time {
 	display: block;
 }
 
