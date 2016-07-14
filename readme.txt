@@ -27,10 +27,6 @@ You can then go ahead and activate the theme.
 
 If you think you've spotted a bug, please open an issue on [GitHub](https://github.com/lsquo/octothorpe/issues).
 
-== Screenshots ==
-
-1. A WordPress post
-
 == Changelog ==
 
 See [CHANGELOG.md](https://github.com/lsquo/octothorpe/blob/master/CHANGELOG.md) for a curated list of changes.
