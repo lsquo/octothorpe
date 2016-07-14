@@ -12,7 +12,7 @@ get_header(); ?>
 </header>
 <p><?php echo esc_html( get_bloginfo( 'description' ) ); ?></p>
 <?php if ( have_posts() ) : ?>
-	<ul>
+	<ul class="post-list">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<li <?php post_class(); ?>>
 				<time datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>"><?php echo esc_html( get_the_date() ); ?></time>
