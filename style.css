@@ -479,11 +479,29 @@ footer li {
 	margin: 0 0 2rem 0;
 }
 
+.search .post {
+	list-style-type: none;
+	margin: 0 0 2rem 0;
+}
+
+.search .page {
+	list-style-type: none;
+	margin: 0 0 2rem 0;
+}
+
 .home .post time {
 	display: block;
 }
 
 .archive .post time {
+	display: block;
+}
+
+.search .post time {
+	display: block;
+}
+
+.search .page time {
 	display: block;
 }
 
