@@ -8,11 +8,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Put your content in the spotlight.
+Shine a spotlight on your content.
 
 == Description ==
 
-Octothorpe is a modern blogging theme which features a mobile first responsive layout, semantic markup and easy-on-the-eye typefaces.
+Octothorpe is a modern blogging theme which features a mobile first responsive layout, semantic markup and easily readable typefaces.
 
 == Installation ==
 
