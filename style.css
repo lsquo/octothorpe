@@ -465,12 +465,30 @@ footer li {
 	color: #ff0000;
 }
 
-.home time {
-	margin: 0 0.5rem 0 0;
+.home ul {
+	padding: 0;
 }
 
-.archive time {
-	margin: 0 0.5rem 0 0;
+.archive ul {
+	padding: 0;
+}
+
+.home .post {
+	list-style-type: none;
+	margin: 0 0 2rem 0;
+}
+
+.archive .post {
+	list-style-type: none;
+	margin: 0 0 2rem 0;
+}
+
+.home .post time {
+	display: block;
+}
+
+.archive .post time {
+	display: block;
 }
 
 .mejs-container {
