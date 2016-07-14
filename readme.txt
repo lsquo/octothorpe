@@ -29,4 +29,5 @@ If you think you've spotted a bug, please open an issue on [GitHub](https://gith
 
 == Changelog ==
 
-See [CHANGELOG.md](https://github.com/lsquo/octothorpe/blob/master/CHANGELOG.md) for a curated list of changes.
+= 1.0.0 =
+* Initial release
