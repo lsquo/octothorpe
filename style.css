@@ -564,7 +564,7 @@ footer li {
 }
 
 @media (min-width: 34em) {
-	.comment-list ul {
+	.comment-list ul.children {
 		padding: 0 0 0 2rem;
 	}
 }
