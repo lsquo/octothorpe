@@ -466,11 +466,11 @@ footer li {
 }
 
 .post-list {
+	list-style: none;
 	padding: 0;
 }
 
 .post-list li {
-	list-style-type: none;
 	margin: 0 0 2rem 0;
 }
 
