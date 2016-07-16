@@ -453,7 +453,7 @@ footer li {
 	padding: 0;
 }
 
-.comment-list ul {
+.comment-list ul.children {
 	list-style: none;
 	padding: 0 0 0 1rem;
 }
