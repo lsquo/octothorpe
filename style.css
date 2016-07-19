@@ -466,19 +466,6 @@ footer li {
 	color: #ff0000;
 }
 
-.post-list {
-	list-style: none;
-	padding: 0;
-}
-
-.post-list li {
-	margin: 0 0 2rem 0;
-}
-
-.post-list time {
-	display: block;
-}
-
 .mejs-container {
 	margin: 0 0 2rem 0;
 }
