@@ -448,6 +448,10 @@ footer li {
 	margin: 0 0 2rem 0;
 }
 
+.post-list time {
+	margin: 0 0.5rem 0 0;
+}
+
 .comment-list {
 	list-style: none;
 	padding: 0;

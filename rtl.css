@@ -22,3 +22,7 @@ td {
 th {
 	text-align: right;
 }
+
+.post-list time {
+	margin: 0 0 0 0.5rem;
+}
