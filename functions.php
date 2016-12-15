@@ -99,10 +99,6 @@ add_action( 'wp_enqueue_scripts', function() {
 	);
 } );
 
-add_filter( 'document_title_separator', function() {
-	return '&mdash;';
-} );
-
 add_filter( 'get_custom_logo', function( $html ) {
 	return sprintf(
 		'<div itemscope itemtype="%1$s">%2$s</div>',
