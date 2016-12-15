@@ -6,24 +6,6 @@
  * @subpackage Functions
  */
 
-remove_action( 'init', 'wp_widgets_init', 1 );
-
-add_action( 'init', function() {
-	register_widget( 'WP_Widget_Pages' );
-	register_widget( 'WP_Widget_Calendar' );
-	register_widget( 'WP_Widget_Archives' );
-	register_widget( 'WP_Widget_Meta' );
-	register_widget( 'WP_Widget_Search' );
-	register_widget( 'WP_Widget_Text' );
-	register_widget( 'WP_Widget_Categories' );
-	register_widget( 'WP_Widget_Recent_Posts' );
-	register_widget( 'WP_Widget_Recent_Comments' );
-	register_widget( 'WP_Widget_Tag_Cloud' );
-	register_widget( 'WP_Nav_Menu_Widget' );
-
-	do_action( 'widgets_init' );
-} );
-
 add_action( 'widgets_init', function() {
 	register_sidebar(
 		array(
