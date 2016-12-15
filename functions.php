@@ -90,9 +90,11 @@ add_action( 'wp_enqueue_scripts', function() {
 			null
 		);
 	}
+} );
 
+add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style(
-		'octothorpe',
+		'octothorpe-style',
 		get_stylesheet_uri()
 	);
 } );
