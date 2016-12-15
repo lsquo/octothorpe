@@ -77,17 +77,14 @@ add_action( 'wp_enqueue_scripts', function() {
 	}
 
 	if ( $fonts ) {
-		$src = add_query_arg(
-			array(
-				'family' => urlencode( implode( '|', $fonts ) ),
-			),
-			'https://fonts.googleapis.com/css'
-		);
 		wp_enqueue_style(
 			'octothorpe-fonts',
-			$src,
-			array(),
-			null
+			add_query_arg(
+				array(
+					'family' => urlencode( implode( '|', $fonts ) ),
+				),
+				'https://fonts.googleapis.com/css'
+			)
 		);
 	}
 } );
