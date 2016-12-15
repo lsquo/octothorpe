@@ -58,12 +58,38 @@ add_action( 'wp_enqueue_scripts', function() {
 } );
 
 add_action( 'wp_enqueue_scripts', function() {
-	wp_enqueue_style(
-		'octothorpe-fonts',
-		'//fonts.googleapis.com/css?family=Boogaloo%7CInconsolata%7CNoto+Serif:400,400i,700,700i',
-		array(),
-		null
-	);
+
+	$fonts = array();
+
+	/* translators: Translate this to 'off' if there are characters in your language that are not supported by Boogaloo. */
+	if ( 'off' !== _x( 'on', 'Boogaloo', 'octothorpe' ) ) {
+		$fonts[] = 'Boogaloo';
+	}
+
+	/* translators: Translate this to 'off' if there are characters in your language that are not supported by Inconsolata. */
+	if ( 'off' !== _x( 'on', 'Inconsolata', 'octothorpe' ) ) {
+		$fonts[] = 'Inconsolata';
+	}
+
+	/* translators: Translate this to 'off' if there are characters in your language that are not supported by Noto Serif. */
+	if ( 'off' !== _x( 'on', 'Noto Serif', 'octothorpe' ) ) {
+		$fonts[] = 'Noto+Serif:400,400i,700,700i';
+	}
+
+	if ( $fonts ) {
+		$src = add_query_arg(
+			array(
+				'family' => urlencode( implode( '|', $fonts ) ),
+			),
+			'https://fonts.googleapis.com/css'
+		);
+		wp_enqueue_style(
+			'octothorpe-fonts',
+			$src,
+			array(),
+			null
+		);
+	}
 
 	wp_enqueue_style(
 		'octothorpe',
