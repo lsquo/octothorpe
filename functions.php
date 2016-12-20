@@ -40,6 +40,14 @@ add_action( 'after_setup_theme', function() {
 	add_theme_support( 'custom-logo' );
 } );
 
+add_filter( 'navigation_markup_template', function() {
+	return '
+		<nav class="navigation %1$s" role="navigation">
+			<div class="nav-links">%3$s</div>
+		</nav>
+	';
+} );
+
 add_action( 'after_setup_theme', function() {
 	$GLOBALS['content_width'] = 1200;
 } );
