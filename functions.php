@@ -28,10 +28,7 @@ add_action( 'after_setup_theme', function() {
 		'html5',
 		array(
 			'gallery',
-			'caption',
-			'comment-list',
-			'comment-form',
-			'search-form'
+			'caption'
 		)
 	);
 	add_theme_support( 'automatic-feed-links' );
