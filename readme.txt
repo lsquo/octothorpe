@@ -4,7 +4,7 @@ Donate link: https://www.rspca.org.uk/getinvolved/donate/online
 Tags: one-column, accessibility-ready, custom-menu, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog
 Requires at least: 3.8
 Tested up to: 4.5.0
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -28,6 +28,9 @@ You can then go ahead and activate the theme.
 If you think you've spotted a bug, please open an issue on [GitHub](https://github.com/lsquo/octothorpe/issues).
 
 == Changelog ==
+
+= 1.1.3 =
+* Fix accessibility issues
 
 = 1.1.2 =
 * Use a core function to output navigation
