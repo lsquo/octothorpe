@@ -501,8 +501,16 @@ footer li {
 	clip: rect(0.1rem, 0.1rem, 0.1rem, 0.1rem);
 	height: 0.1rem;
 	overflow: hidden;
-	position: absolute !important;
+	position: absolute;
 	width: 0.1rem;
+}
+
+.screen-reader-text:focus {
+	clip: auto;
+	height: auto;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
 
 .gallery-caption {}
