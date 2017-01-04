@@ -461,8 +461,17 @@ footer li {
 	margin: 0 0 2rem 0;
 }
 
+.post-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.post-list li {
+	margin: 0 0 2rem 0;
+}
+
 .post-list time {
-	margin: 0 0.5rem 0 0;
+	display: block;
 }
 
 .comment-list {
