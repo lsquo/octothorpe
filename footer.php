@@ -15,7 +15,9 @@
 					array(
 						'theme_location' => 'footer',
 						'depth'          => 1,
-						'fallback_cb'    => false
+						'fallback_cb'    => false,
+						'container'      => false,
+						'items_wrap'     => '<nav role="navigation"><ul id="%1$s" class="%2$s">%3$s</ul></nav>'
 					)
 				); ?>
 			</footer>
