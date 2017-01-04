@@ -8,7 +8,7 @@
 
 get_header();
 while ( have_posts() ) : the_post(); ?>
-	<main>
+	<main role="main">
 		<article <?php post_class(); ?>>
 			<?php the_title( '<header><h1>', '</h1></header>' ); ?>
 			<?php if ( has_post_thumbnail() ) { ?>

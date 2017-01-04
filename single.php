@@ -8,7 +8,7 @@
 
 get_header();
 while ( have_posts() ) : the_post(); ?>
-	<main>
+	<main role="main">
 		<article <?php post_class(); ?>>
 			<?php if ( has_category() ) { ?>
 				<p><?php echo get_the_category_list( ', ' ); ?></p>

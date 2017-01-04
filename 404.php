@@ -7,7 +7,7 @@
  */
 
 get_header(); ?>
-<main>
+<main role="main">
 	<header>
 		<h1><?php esc_html_e( 'Eek!', 'octothorpe' ); ?></h1>
 	</header>
