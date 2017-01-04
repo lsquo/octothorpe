@@ -497,7 +497,13 @@ footer li {
 
 .wp-caption-text {}
 
-.screen-reader-text {}
+.screen-reader-text {
+	clip: rect(0.1rem, 0.1rem, 0.1rem, 0.1rem);
+	height: 0.1rem;
+	overflow: hidden;
+	position: absolute !important;
+	width: 0.1rem;
+}
 
 .gallery-caption {}
 

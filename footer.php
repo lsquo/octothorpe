@@ -5,8 +5,10 @@
  * @package Octothorpe
  * @subpackage Templates
  */
+?>
 
-		get_sidebar();
+		</div>
+		<?php get_sidebar();
 		if ( has_nav_menu( 'footer' ) ) { ?>
 			<footer>
 				<?php wp_nav_menu(

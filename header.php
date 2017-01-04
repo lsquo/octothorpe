@@ -15,6 +15,8 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'octothorpe' ); ?></a>
 		<?php if ( function_exists( 'the_custom_logo' ) ) {
 			the_custom_logo();
 		} ?>
+		<div id="content" class="site-content">
