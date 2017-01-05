@@ -103,7 +103,7 @@ add_action( 'wp_enqueue_scripts', function() {
 
 add_filter( 'get_custom_logo', function( $html ) {
 	return sprintf(
-		'<div itemscope itemtype="%1$s">%2$s</div>',
+		'<div id="brand" itemscope itemtype="%1$s">%2$s</div>',
 		esc_url( 'https://schema.org/Brand' ),
 		$html
 	);

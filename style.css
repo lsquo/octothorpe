@@ -446,10 +446,8 @@ footer li {
 	margin: 0 1rem;
 }
 
-.custom-logo {
-	display: block;
-	height: auto;
-	margin: 0 auto 2rem auto;
+#brand {
+	margin: 0 auto;
 	max-width: 6rem;
 }
 
