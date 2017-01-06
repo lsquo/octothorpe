@@ -71,9 +71,9 @@ add_action( 'wp_enqueue_scripts', function() {
 		$fonts[] = 'Boogaloo';
 	}
 
-	/* translators: Translate this to 'off' if there are characters in your language that are not supported by Inconsolata. */
-	if ( 'off' !== _x( 'on', 'Inconsolata', 'octothorpe' ) ) {
-		$fonts[] = 'Inconsolata';
+	/* translators: Translate this to 'off' if there are characters in your language that are not supported by Source Code Pro. */
+	if ( 'off' !== _x( 'on', 'Source Code Pro', 'octothorpe' ) ) {
+		$fonts[] = 'Source+Code+Pro';
 	}
 
 	/* translators: Translate this to 'off' if there are characters in your language that are not supported by Noto Serif. */

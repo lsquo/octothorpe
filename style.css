@@ -241,21 +241,21 @@ abbr {
 time {}
 
 pre {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Source Code Pro', monospace;
 	margin: 0 0 2rem 0;
 	white-space: pre-wrap;
 }
 
 code {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 samp {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 kbd {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Source Code Pro', monospace;
 }
 
 var {
