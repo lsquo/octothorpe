@@ -380,16 +380,20 @@ input {
 	font-size: inherit;
 	margin: 0 0 2rem 0;
 	padding: 0.5rem 1rem;
+	width: 100%;
 }
 
 input[type="button"] {
 	background-color: #eee;
 	cursor: pointer;
 	padding: 0.5rem 3rem;
+	width: auto;
 }
 
 input[type="checkbox"] {
-
+	margin: 0;
+	padding: 0;
+	width: auto;
 }
 
 input[type="color"] {
@@ -399,91 +403,62 @@ input[type="color"] {
 	width: 2.5rem;
 }
 
-input[type="date"] {
-	width: 100%;
-}
+input[type="date"] {}
 
-input[type="datetime"] {
-	width: 100%;
-}
+input[type="datetime"] {}
 
-input[type="datetime-local"] {
-	width: 100%;
-}
+input[type="datetime-local"] {}
 
-input[type="email"] {
-	width: 100%;
-}
+input[type="email"] {}
 
-input[type="file"] {
+input[type="file"] {}
 
-}
+input[type="hidden"] {}
 
-input[type="hidden"] {
+input[type="image"] {}
 
-}
+input[type="month"] {}
 
-input[type="image"] {
+input[type="number"] {}
 
-}
-
-input[type="month"] {
-	width: 100%;
-}
-
-input[type="number"] {
-	width: 100%;
-}
-
-input[type="password"] {
-	width: 100%;
-}
+input[type="password"] {}
 
 input[type="radio"] {
-
+	margin: 0;
+	padding: 0;
+	width: auto;
 }
 
 input[type="range"] {
 	border-style: none;
 	padding: 0;
-	width: 100%;
 }
 
 input[type="reset"] {
 	background-color: #eee;
 	cursor: pointer;
 	padding: 0.5rem 3rem;
+	width: auto;
 }
 
-input[type="search"] {
-	width: 100%;
-}
+input[type="search"] {}
 
 input[type="submit"] {
 	background-color: #eee;
 	cursor: pointer;
 	padding: 0.5rem 3rem;
+	width: auto;
 }
 
-input[type="tel"] {
-	width: 100%;
-}
+input[type="tel"] {}
 
-input[type="text"] {
-	width: 100%;
-}
+input[type="text"] {}
 
-input[type="time"] {
+input[type="time"] {}
 
-}
+input[type="url"] {}
 
-input[type="url"] {
-	width: 100%;
-}
-
-input[type="week"] {
-	width: 100%;
-}
+input[type="week"] {}
 
 button {
 	background-color: #eee;
