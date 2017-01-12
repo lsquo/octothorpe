@@ -17,6 +17,10 @@
 	padding: 0;
 }
 
+:focus {
+	outline: 0.1rem dashed #4d90fe;
+}
+
 html {}
 
 body {
@@ -353,7 +357,13 @@ th {
 
 form {}
 
-fieldset {}
+fieldset {
+	border-color: #555;
+	border-style: dashed;
+	border-width: 0.1rem;
+	margin: 0 0 2rem 0;
+	padding: 2rem 2rem 0 2rem;
+}
 
 legend {}
 
@@ -370,6 +380,82 @@ input {
 	font-size: inherit;
 	margin: 0 0 2rem 0;
 	padding: 0.5rem 1rem;
+}
+
+input[type="button"] {
+	background-color: #eee;
+	cursor: pointer;
+	padding: 0.5rem 3rem;
+}
+
+input[type="checkbox"] {
+
+}
+
+input[type="color"] {
+	background-color: transparent;
+	height: 2.5rem;
+	padding: 0;
+	width: 2.5rem;
+}
+
+input[type="date"] {
+	width: 100%;
+}
+
+input[type="datetime"] {
+	width: 100%;
+}
+
+input[type="datetime-local"] {
+	width: 100%;
+}
+
+input[type="email"] {
+	width: 100%;
+}
+
+input[type="file"] {
+
+}
+
+input[type="hidden"] {
+
+}
+
+input[type="image"] {
+
+}
+
+input[type="month"] {
+	width: 100%;
+}
+
+input[type="number"] {
+	width: 100%;
+}
+
+input[type="password"] {
+	width: 100%;
+}
+
+input[type="radio"] {
+
+}
+
+input[type="range"] {
+	border-style: none;
+	padding: 0;
+	width: 100%;
+}
+
+input[type="reset"] {
+	background-color: #eee;
+	cursor: pointer;
+	padding: 0.5rem 3rem;
+}
+
+input[type="search"] {
 	width: 100%;
 }
 
@@ -377,19 +463,39 @@ input[type="submit"] {
 	background-color: #eee;
 	cursor: pointer;
 	padding: 0.5rem 3rem;
-	width: auto;
 }
 
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="submit"]:focus,
-input[type="text"]:focus,
-input[type="url"]:focus {
-	outline: 0.1rem dashed #4d90fe;
+input[type="tel"] {
+	width: 100%;
 }
 
-button {}
+input[type="text"] {
+	width: 100%;
+}
+
+input[type="time"] {
+
+}
+
+input[type="url"] {
+	width: 100%;
+}
+
+input[type="week"] {
+	width: 100%;
+}
+
+button {
+	background-color: #eee;
+	border-color: #555;
+	border-style: dashed;
+	border-width: 0.1rem;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0 0 2rem 0;
+	padding: 0.5rem 3rem;
+}
 
 textarea {
 	border-color: #555;
@@ -400,10 +506,6 @@ textarea {
 	margin: 0 0 2rem 0;
 	padding: 1rem;
 	width: 100%;
-}
-
-textarea:focus {
-	outline: 0.1rem dashed #4d90fe;
 }
 
 select {
