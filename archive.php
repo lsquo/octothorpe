@@ -29,5 +29,5 @@ get_header(); ?>
 	else : ?>
 		<p><?php esc_html_e( 'No posts found.', 'octothorpe' ); ?></p>
 	<?php endif; ?>
-</div>
+</main>
 <?php get_footer();

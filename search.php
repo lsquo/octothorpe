@@ -41,5 +41,5 @@ global $wp_query; ?>
 		<?php get_template_part( 'template-parts/pag', 'posts' );
 	else :
 	endif; ?>
-</div>
+</main>
 <?php get_footer();
