@@ -18,5 +18,16 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'octothorpe' ); ?></a>
 		<?php if ( function_exists( 'the_custom_logo' ) ) {
 			the_custom_logo();
+		}
+		if ( has_nav_menu( 'primary' ) ) {
+			wp_nav_menu(
+				array(
+					'theme_location' => 'primary',
+					'depth'          => 1,
+					'fallback_cb'    => false,
+					'container'      => false,
+					'items_wrap'     => '<nav role="navigation"><ul id="%1$s" class="%2$s">%3$s</ul></nav>'
+				)
+			);
 		} ?>
 		<div id="content" class="site-content">

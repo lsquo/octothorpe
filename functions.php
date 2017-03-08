@@ -51,8 +51,8 @@ add_action( 'after_setup_theme', function() {
 
 add_action( 'after_setup_theme', function() {
 	register_nav_menu(
-		'footer',
-		__( 'Footer', 'octothorpe' )
+		'primary',
+		__( 'Primary', 'octothorpe' )
 	);
 } );
 

@@ -34,9 +34,7 @@ body {
 
 header {}
 
-footer {
-	text-align: center;
-}
+footer {}
 
 article {}
 
@@ -513,19 +511,19 @@ figure img {
 	margin: 0 0 1rem 0;
 }
 
-footer ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-footer li {
-	margin: 0 1rem;
-}
-
 #brand {
 	margin: 0 auto;
 	max-width: 6rem;
+}
+
+ul.menu {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+ul.menu li {
+	margin: 0 1rem;
 }
 
 .tagcloud {
@@ -676,7 +674,7 @@ footer li {
 		padding: 0 6rem;
 	}
 
-	footer li {
+	ul.menu li {
 		display: inline;
 	}
 }

@@ -6,8 +6,6 @@
  * @subpackage Templates
  */
 
-if ( is_active_sidebar( 'footer' ) ) { ?>
-	<aside role="complementary">
-		<?php dynamic_sidebar( 'footer' ); ?>
-	</aside>
-<?php }
+if ( is_active_sidebar( 'footer' ) ) {
+	dynamic_sidebar( 'footer' );
+}
