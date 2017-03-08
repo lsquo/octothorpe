@@ -11,8 +11,8 @@ add_action( 'widgets_init', function() {
 		array(
 			'name'          => __( 'Footer', 'octothorpe' ),
 			'id'            => 'footer',
-			'before_widget' => '<section>',
-			'after_widget'  => '</section>',
+			'before_widget' => '',
+			'after_widget'  => '',
 			'before_title'  => '<h2>',
 			'after_title'   => '</h2>'
 		)
