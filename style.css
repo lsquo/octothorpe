@@ -523,7 +523,9 @@ ul.menu {
 }
 
 ul.menu li {
+	display: inline;
 	margin: 0 1rem;
+	white-space: nowrap;
 }
 
 .tagcloud {
@@ -672,9 +674,5 @@ ul.menu li {
 
 	blockquote {
 		padding: 0 6rem;
-	}
-
-	ul.menu li {
-		display: inline;
 	}
 }
