@@ -243,8 +243,12 @@ abbr {
 time {}
 
 pre {
+	background-color: #fafafa;
+	border: 0.1rem dashed #555;
 	font-family: 'Source Code Pro', monospace;
+	font-size: 80%;
 	margin: 0 0 2rem 0;
+	padding: 1rem 1.8rem;
 	white-space: pre-wrap;
 }
 
