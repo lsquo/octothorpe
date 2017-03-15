@@ -45,6 +45,11 @@ add_filter( 'navigation_markup_template', function() {
 	';
 } );
 
+add_filter( 'post_class', function( $classes ) {
+	$classes = array_diff( $classes, array( 'hentry' ) );
+	return $classes;
+} );
+
 add_action( 'after_setup_theme', function() {
 	$GLOBALS['content_width'] = 1200;
 } );
